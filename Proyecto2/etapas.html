@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="etapas.css">
+    <title>Etapas | Protocolo HTTP</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="superior">
+            <div class="logo">
+                <img src="Img/logo.jpg" alt="">
+            </div>
+            <nav class="menu">
+                <ul class="opciones">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="que_es.html">¿Que es?</a></li>
+                    <li><a href="pq_sirve.html">¿Para que sirve?</a></li>
+                    <li><a href="cm_funciona.html">¿Como funciona?</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="info">
+        <h1>Etapas</h1>
+        <h3>Pasa - Presente - Futuro.</h3>
+
+        <section class="cuerpo1">
+
+            <article class="caja1">
+                <h1> <u>El primer estándar oficial: HTTP/1.1</u></h1>
+            </article>
+            <article class="caja2">
+                <p>En 1997, se publicó la versión HTTP/1.1, descrita en el memorando RFC2068 y
+                    considerada como el primer estándar oficial. Esta versión se sigue usando hoy en
+                    día y presenta cambios importantes respecto a HTTP/1:</p>
+            </article>
+        </section>
+        <section class="cuerpo2">
+            <article class="caja3">
+                <p>
+                    Según pasaban los años, las páginas web se volvían cada vez más amplias y
+                    complejas. Para cargar una web moderna en el navegador, este tiene que solicitar
+                    muchos megabytes de datos y enviar hasta cien solicitudes HTTP. HTTP/1.1 está
+                    pensado para procesar solicitudes una tras otra en una misma conexión, de manera
+                    que cuanto más compleja sea una página web, más tardará en cargarse y
+                    mostrarse.
+                </p>
+            </article>
+            <article class="caja4">
+                <h1><u>La nueva versión de HTTP: HTTP/2:</u></h1>
+            </article>
+        </section>
+        <section class="cuerpo3">
+            <article class="caja5">
+                <h1><u>El Futuro: HTTP/3</u></h1>
+            </article>
+            <article class="caja6">
+                <p>Un punto débil de todas las versiones de HTTP usadas hasta ahora es el protocolo
+                    de control de transmisión (TCP) en el que se basan. Este protocolo requiere que el
+                    receptor de cada paquete de datos confirme la recepción antes de que pueda
+                    enviarse el siguiente paquete. De este modo, basta con que se pierda un paquete
+                    para que todos los demás tengan que esperar a que dicho paquete sea transmitido
+                    de nuevo. Entre especialistas, estos casos son llamados head-of-line blocking.
+                    Para evitarlos, la nueva versión HTTP/3 no funcionará con TCP, sino con UDP, que
+                    no aplica este tipo de medidas correctivas. A partir de UDP, se ha creado el
+                    protocolo QUIC (Quick UDP Internet Connections), que será la base de HTTP/3.</p>
+            </article>
+        </section>
+    </section>
+    
+    <footer class="pie">
+        <p>jose.lopez98@unach.mx</p>
+        <p>&copy; Copyright 2023 por Protocolo HTTP. Autor: José Manuel López Méndez</p>
+    </footer>
+    
+</body>
+</html>

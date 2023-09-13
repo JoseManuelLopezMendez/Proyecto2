@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(34, 32, 32);
+
+}
+.contenedor{
+width: 100%;
+background-color: black;
+margin: auto;
+}
+.superior{
+    background-color: black;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+/*Estilos del menu*/
+.menu{
+    float: right;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    
+}
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.opciones li a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.cuerpo{
+    overflow: hidden;
+    border: 2px solid;
+}
+.img_historia{
+    padding: 80px;
+    float: left;
+}
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    padding: 60px;
+}
+.info1{
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.info2{
+    float: right;
+    width: 600px ;
+    margin: 10px;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+p{
+    text-align: left;
+    padding: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.pie{
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.pie p{
+    font-size: 13px;
+    text-align: center;
+}
